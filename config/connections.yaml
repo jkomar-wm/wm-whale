@@ -1,0 +1,11 @@
+---
+name: analytics_uat
+metadata_source: Redshift
+uri: analytics-cluster.cfhrjri0dvvx.us-west-2.redshift.amazonaws.com
+port: 5439
+database: 'analytics'
+username: # optional
+password: # optional
+where_clause_suffix: |
+  where schema = 'core'
+  and name = 'brands'
