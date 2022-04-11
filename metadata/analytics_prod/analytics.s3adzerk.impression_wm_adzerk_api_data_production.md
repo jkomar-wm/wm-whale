@@ -1,0 +1,66 @@
+# `s3adzerk.impression_wm_adzerk_api_data_production`
+`analytics_prod` | `analytics`
+
+## Column details
+* [string]    `meta:schema`
+* [string]    `meta:version`
+* [boolean]   `gdprcomputed`
+* [string]    `gdprsource`
+* [string]    `remoteip`
+* [string]    `useragent`
+* [int]       `ecpm`
+* [boolean]   `datacenter`
+* [boolean]   `burnin`
+* [boolean]   `isvalidua`
+* [struct<Key:string,IsNew:boolean>] `user`
+* [string]    `userkey`
+* [int]       `impressioncount`
+* [string]    `id`
+* [string]    `decisionid`
+* [int]       `decisionidx`
+* [string]    `createdon`
+* [bigint]    `eventcreatedon`
+* [bigint]    `impressioncreatedon`
+* [int]       `adtypeid`
+* [int]       `auctionbids`
+* [int]       `brandid`
+* [int]       `campaignid`
+* [array<string>] `categories`
+* [int]       `channelid`
+* [int]       `creativeid`
+* [int]       `creativepassid`
+* [int]       `deliverymode`
+* [struct<brandName:string,modelName:string,osRawVersion:string,osMajorVersion:int,osMinorVersion:int,browser:string,browserRawVers] `device`
+* [int]       `firstchannelid`
+* [boolean]   `isnotrack`
+* [boolean]   `istrackingcookieevents`
+* [boolean]   `ispublisherpayoutexempt`
+* [string]    `keywords`
+* [struct<CountryCode:string,CountryName:string,Region:string,City:string,PostalCode:string,MetroCode:int,DmaCode:int,Latitude:int,] `location`
+* [array<string>] `matchingkeywords`
+* [int]       `networkid`
+* [int]       `passid`
+* [int]       `phantomcreativepassid`
+* [string]    `placementname`
+* [int]       `phantompassid`
+* [int]       `priorityid`
+* [string]    `price`
+* [int]       `ratetype`
+* [int]       `relevancyscore`
+* [int]       `revenue`
+* [int]       `netrevenue`
+* [int]       `grossrevenue`
+* [string]    `servedby`
+* [int]       `servedbypid`
+* [string]    `servedbyasg`
+* [int]       `siteid`
+* [int]       `zoneid`
+* [string]    `referrerurl`
+* [string]    `url`
+* [boolean]   `gdpriseu`
+* [string]    `year`
+* [string]    `month`
+* [string]    `day`
+
+-------------------------------------------------------------------------------
+*Do not make edits above this line.*

@@ -1,0 +1,13 @@
+# `regional_health.retained_orderers_30`
+`analytics_prod` | `analytics`
+
+## Column details
+* [date]      `calendar_date`
+* [character varying] `region_name`
+* [character varying] `platform`
+* [character varying] `marketing_region`
+* [character varying] `traffic_source`
+* [integer]   `retained_orderers`
+
+-------------------------------------------------------------------------------
+*Do not make edits above this line.*
