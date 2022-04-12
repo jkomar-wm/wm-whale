@@ -1,8 +1,0 @@
-# `public.accounts_purchase_feb_delivery`
-`analytics_prod` | `analytics`
-
-## Column details
-* [integer]   `account_id`
-
--------------------------------------------------------------------------------
-*Do not make edits above this line.*

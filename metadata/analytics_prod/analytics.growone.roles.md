@@ -1,9 +1,0 @@
-# `growone.roles`
-`analytics_prod` | `analytics`
-
-## Column details
-* [character varying] `_id`
-* [character varying] `name`
-
--------------------------------------------------------------------------------
-*Do not make edits above this line.*
